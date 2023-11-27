@@ -1,0 +1,38 @@
+<div class="Display-Policy-Detail-area">
+    <h1>Insurer Details</h1>
+    <table id="user_id" style="width:100%">
+        <tr>
+            <th>Policy Number </th>
+            <th>Insurance Type</th>
+            <th>Policy End Date</th>
+            <th>Product Name</th>
+            <th>Insured Age</th>
+            <th>Insured Gender</th>
+            <th>Insured Address</th>
+            <th>Insured City</th>
+        </tr >
+        <ng-container *ngFor="let ins of details; index as i">
+
+            <ng-container *ngIf="i==2">
+        <tr>
+            <td >{{ins.policy_number}}</td>
+            <td >{{ins.insurance_type}}</td>
+            <td >{{ins.policy_end_date}}</td>
+            <td >{{ins.product_name}}</td>
+            <td >{{ins.insured_age}}</td>
+            <td >{{ins.insured_gender}}</td>
+            <td >{{ins.insured_address}}</td>
+            <td >{{ins.insured_city}}</td>
+            
+        </tr>
+            </ng-container>
+        </ng-container>
+        
+    </table>
+
+
+
+
+
+
+</div>
