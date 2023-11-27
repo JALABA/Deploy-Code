@@ -1,0 +1,1 @@
+import{h as r}from"./chunk-FPUELCOO.js";var c=(()=>{let t=class t{constructor(){}setIndex(n){this.index=n}getIndex(){return this.index}};t.\u0275fac=function(o){return new(o||t)},t.\u0275prov=r({token:t,factory:t.\u0275fac,providedIn:"root"});let e=t;return e})();export{c as a};
